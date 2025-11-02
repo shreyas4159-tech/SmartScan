@@ -1,9 +1,8 @@
 streamlit
 opencv-python-headless
 ultralytics
-Pillow
+pillow
 matplotlib
 pandas
-numpy
-streamlit-image-comparison
 wikipedia
+streamlit-image-comparison
