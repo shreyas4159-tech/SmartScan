@@ -1,9 +1,27 @@
-streamlit
-opencv-python-headless
-ultralytics
-pillow
-numpy
-matplotlib
-pandas
-streamlit-image-comparison
-wikipedia
+# Streamlit web framework
+streamlit==1.39.0
+
+# OpenCV (headless version for Streamlit Cloud)
+opencv-python-headless==4.9.0.80
+
+# Numerical operations
+numpy==1.26.4
+
+# Image processing
+Pillow==10.3.0
+
+# YOLO model and utilities
+ultralytics==8.2.2
+
+# Optional: useful dependencies that some YOLO models require
+torch>=2.0.0
+torchvision>=0.15.0
+
+# For progress bars and other metrics
+tqdm==4.66.1
+
+# For joblib-based caching or ML utils (if used anywhere)
+joblib==1.4.2
+
+# For Scikit-learn metrics or other ML tools (safe to include)
+scikit-learn==1.5.2
