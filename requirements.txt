@@ -13,9 +13,10 @@ Pillow==10.3.0
 # YOLO model and utilities
 ultralytics==8.2.2
 
-# Optional: useful dependencies that some YOLO models require
-torch>=2.0.0
-torchvision>=0.15.0
+# Torch (CPU-only version for Streamlit Cloud)
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 
 # For progress bars and other metrics
 tqdm==4.66.1
